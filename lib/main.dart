@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         brightness: Brightness.dark,
         primarySwatch: Colors.blue,
+        scaffoldBackgroundColor: Colors.black
       ),
       home: const HomeScreen(),
     );
